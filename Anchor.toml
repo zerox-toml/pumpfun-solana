@@ -10,10 +10,10 @@ bonding_curve = "5mdPUgyK9mqosLtqZvfpY5pcpCqQBWHuS3XoU34CrJK3"
 [registry]
 url = "https://devnet.helius-rpc.com/?api-key=39d83ffa-585c-4f90-8636-2f6795db4cb3"
 
-[provider]
+[provider]   
 cluster = "Devnet"
 wallet = "./id.json"
-
+  
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
 
