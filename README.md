@@ -1,27 +1,47 @@
-# Pump.fun-Smart-Contract
+🧪 Pump.fun Fork – Token & Market Launcher for Solana
+This project is a full-featured fork of the original Pump.fun smart contract, designed to empower users to seamlessly launch tokens, create markets, and manage liquidity on the Solana network using Raydium and OpenBook.
 
-The **Pump.fun Smart Contract forking** is an innovative platform  designed to allow users to create tokens, markets, and pools on Raydium. This comprehensive project offers not only same features of pump.fun but also more for managing token authorities, customizing token properties, and handling liquidity pools with advanced functionalities.
+It combines the core functionality of Pump.fun with extended capabilities such as enhanced token authority control, advanced pool operations, and integrated dashboards for transparency and analytics.
 
-### Key Features
+🚀 Key Features
+🎨 Token Management
+Launch SPL tokens with custom names, symbols, and metadata (image/logo support).
 
-- **Token Management**: Create tokens with customizable names, symbols, and images. Revoke token authority as needed.
-- **Market Creation**: Set up markets for trading tokens with ease.
-- **Pool Management**: Add and remove liquidity in Raydium pools. Burn SPL tokens efficiently.
-- **Dashboard**: Display detail information of token listed on pump.fun.
-- **Spam Detection**: Automatically catch and handle spammers making transactions to the OpenBook market.
-- **Discord Integration**: Receive real-time notifications on Discord via webhooks.
+Automatically revoke mint and freeze authorities for trustless token launches.
 
-### Installation
+📈 Market Creation
+Instantly create OpenBook markets for any token.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/dappsol/pump.fun-smart-contract.git
-   cd pump.fun-smart-contract
-   ```
+Integrated support for Raydium market routing and trading.
 
-2. Running:
-   ```bash
-   cargo build
-   anchor deploy
-   ```
+💧 Liquidity Pool Management
+Add or remove liquidity directly through Raydium pools.
 
+Efficient SPL token burning and LP tracking mechanisms.
+
+📊 Token Dashboard
+Token listings are displayed with full metadata, market details, and liquidity stats.
+
+Fast search and spam filtering for cleaner discovery.
+
+🛡️ Anti-Spam Mechanism
+Detect and block malicious or spam transactions in real-time.
+
+Protect token listings and OpenBook markets from clutter.
+
+🔔 Discord Webhook Integration
+Get real-time notifications for token launches, market creation, and suspicious activity.
+
+Easily integrate with your community or internal Discord server.
+
+🌐 Built on Solana
+Harnessing the power of the Solana Virtual Machine (SVM), this platform offers lightning-fast token creation and DeFi interactions at minimal cost.
+
+💡 Use Cases
+Meme coin and community token launches
+
+Creator economy / fan token experiments
+
+Microcap trading games or social finance tools
+
+DeFi protocol testing and simulations
