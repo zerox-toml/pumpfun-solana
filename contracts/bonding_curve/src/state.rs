@@ -6,6 +6,8 @@ use anchor_lang::prelude::*;
 use anchor_lang::system_program;
 use anchor_spl::token::{self, Mint, Token, TokenAccount};
 
+pub const RAYDIUM_AMM_PROGRAM_ID: &str = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8";
+
 #[account]
 pub struct CurveConfiguration {
     pub fees: f64,
