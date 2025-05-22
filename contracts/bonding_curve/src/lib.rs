@@ -5,8 +5,10 @@ pub mod utils;
 pub mod instructions;
 pub mod state;
 pub mod consts;
+pub mod raydium;
 
 use crate::instructions::*;
+use crate::raydium::*;
 
 declare_id!("5mdPUgyK9mqosLtqZvfpY5pcpCqQBWHuS3XoU34CrJK3");
 
@@ -39,6 +41,22 @@ pub mod bonding_curve {
     pub fn sell(ctx: Context<Sell>, amount: u64, bump: u8) -> Result<()> {
         instructions::sell(ctx, amount, bump)
     }
-    
+
+    // Raydium CPI instructions
+    pub fn raydium_swap(
+        ctx: Context<RaydiumSwap>,
+        amount_in: u64,
+        minimum_amount_out: u64,
+    ) -> Result<()> {
+        raydium::swap(ctx, amount_in, minimum_amount_out)
+    }
+
+    pub fn raydium_add_liquidity(
+        ctx: Context<RaydiumAddLiquidity>,
+        max_coin_amount: u64,
+        max_pc_amount: u64,
+    ) -> Result<()> {
+        raydium::add_liquidity(ctx, max_coin_amount, max_pc_amount)
+    }
 }
 
