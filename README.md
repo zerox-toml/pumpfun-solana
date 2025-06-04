@@ -4,44 +4,45 @@ This project is a full-featured fork of the original Pump.fun smart contract, de
 It combines the core functionality of Pump.fun with extended capabilities such as enhanced token authority control, advanced pool operations, and integrated dashboards for transparency and analytics.
 
 🚀 Key Features
-🎨 Token Management
-Launch SPL tokens with custom names, symbols, and metadata (image/logo support).
 
-Automatically revoke mint and freeze authorities for trustless token launches.
+🎨 Token Management
+ - Launch SPL tokens with custom names, symbols, and metadata (image/logo support).
+
+ - Automatically revoke mint and freeze authorities for trustless token launches.
 
 📈 Market Creation
-Instantly create OpenBook markets for any token.
+ - Instantly create OpenBook markets for any token.
 
-Integrated support for Raydium market routing and trading.
+ - Integrated support for Raydium market routing and trading.
 
 💧 Liquidity Pool Management
-Add or remove liquidity directly through Raydium pools.
+ - Add or remove liquidity directly through Raydium pools.
 
-Efficient SPL token burning and LP tracking mechanisms.
+ - Efficient SPL token burning and LP tracking mechanisms.
 
 📊 Token Dashboard
-Token listings are displayed with full metadata, market details, and liquidity stats.
+ - Token listings are displayed with full metadata, market details, and liquidity stats.
 
-Fast search and spam filtering for cleaner discovery.
+ - Fast search and spam filtering for cleaner discovery.
 
 🛡️ Anti-Spam Mechanism
-Detect and block malicious or spam transactions in real-time.
+ - Detect and block malicious or spam transactions in real-time.
 
-Protect token listings and OpenBook markets from clutter.
+ - Protect token listings and OpenBook markets from clutter.
 
 🔔 Discord Webhook Integration
-Get real-time notifications for token launches, market creation, and suspicious activity.
+ - Get real-time notifications for token launches, market creation, and suspicious activity.
 
-Easily integrate with your community or internal Discord server.
+ - Easily integrate with your community or internal Discord server.
 
 🌐 Built on Solana
-Harnessing the power of the Solana Virtual Machine (SVM), this platform offers lightning-fast token creation and DeFi interactions at minimal cost.
+ - Harnessing the power of the Solana Virtual Machine (SVM), this platform offers lightning-fast token creation and DeFi interactions at minimal cost.
 
 💡 Use Cases
-Meme coin and community token launches
+ - Meme coin and community token launches
 
-Creator economy / fan token experiments
+ - Creator economy / fan token experiments
 
-Microcap trading games or social finance tools
+ - Microcap trading games or social finance tools
 
 DeFi protocol testing and simulations
